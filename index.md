@@ -34,12 +34,3 @@ The CMU Movie Summary Corpus Dataset consists of over 42,306 movie plot summarie
 
 ### movie arc analysis
 
-<a href="//bencentra.com/assets/images/falcon9_large.jpg" data-lightbox="falcon9-large" data-title="Check out the Falcon 9 from SpaceX">
-  <img src="//bencentra.com/assets/images/falcon9_small.jpg" title="Check out the Falcon 9 from SpaceX">
-</a>
-
-
-
-![IMG_1709 (3)](https://user-images.githubusercontent.com/75627760/208888032-11bb6cc8-1408-46cf-8800-568c5d747dac.JPG)
-
-
