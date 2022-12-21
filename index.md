@@ -27,7 +27,7 @@ Drama, Comedy, Thriller/Action, Romance, and Horror are the kings and queens of 
 We will create four datasets for analysis, focusing on the genres of drama, comedy, thriller/action, and horror. Horror was chosen over romance because romantic movies often overlap with both drama and comedy in their secondary genre classification
 
 ### Movie arcs
-By grouping the most common genres into the four main genres action, comedy, drama and horror, which are all very different from each other. But in this little data story, sentiment analysis plays the main role. For every movie, each sentence in the summary gets a continuous sentiment value assigned. This shapes the arc throughout the plot summary.
+For groupying the four main genres, we do not need to explain what the difference between them is. No one would put a comedy movie and a horror movie in the same category. They seem very different from each other, but are they really? We are analyzing the plot of every movie from those four genres. In this little data story, sentiment analysis plays the main role. For every movie, each sentence in the summary gets a continuous sentiment value assigned. This shapes the arc throughout the plot summary.
 
 
 ### (Clustering)
@@ -48,7 +48,11 @@ Every time we watch, rate or talk about a movie, we influence its success. But w
 
 #### What is the most profitable movie arc per genre, is their a clear winner among the various clusters?
 
+
+
 #### What is the most rated movie arc per genre, is their a clear winner among the various clusters?
+
+
 
 #### Does the most typical movie arc change over time? If so, what are the various movie arcs that take place in various time periods, and what are their profitability and rating?
 
