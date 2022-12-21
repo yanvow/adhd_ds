@@ -31,7 +31,7 @@ highlightjs_theme: "monokai-sublime"
 # Pagination Settings
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 pagination:
-  enabled: true
+  enabled: false
   per_page: 5
   permalink: "/page/:num/"
   sort_reverse: true
@@ -81,14 +81,14 @@ social:
     username: TheBenCentra
     url: https://twitter.com/TheBenCentra
     desc: Follow me on Twitter
-    share: true
+    share: false
 
   - name: Facebook
     icon: facebook
     username: thebencentra
     url: ""
     desc: Friend me on Facebook
-    share: true
+    share: false
 
   - name: GitHub
     icon: github
@@ -102,14 +102,14 @@ social:
     username: Ben Centra
     url: https://www.linkedin.com/pub/ben-centra/47/769/60a
     desc: Connect with me on LinkedIn
-    share: true
+    share: false
 
   - name: Google+
     icon: google-plus
     username: ""
     url: ""
     desc: Add me to your Circles
-    share: true
+    share: false
 
   - name: YouTube
     icon: youtube
