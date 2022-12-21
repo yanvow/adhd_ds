@@ -11,8 +11,10 @@ cover:  "/assets/James-Bond-No-Time-To-Die-OMEGA-Filmplakat.jpg"
 
 
 
-## It's time to tell you a story about data
-Every time 
+## Let’s talk about data/ Let us tell you a little story about data
+
+The CMU Movie Summary Corpus Dataset consists of over 42,306 movie plot summaries with information about box offices revenue, genres, release date and many more. In our little datastory, sentiment analysis plays the main role. 
+
  
 ### Preprocessing pipeline how do we measure?
 
