@@ -21,7 +21,8 @@ Join us as we delve into the world of movie storytelling and uncover the secrets
 
 The CMU Movie Summary Corpus Dataset consists of over 42,306 movie plot summaries with information about box offices revenue, genres, release date and many more. In our little datastory, sentiment analysis plays the main role. 
 
- 
+{% include genres.html %}
+
 ### Preprocessing pipeline how do we measure?
 
 
