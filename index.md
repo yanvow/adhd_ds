@@ -19,11 +19,13 @@ Join us as we delve into the world of movie storytelling and uncover the secrets
 
 ## Let us tell you a little story about data
 
-The CMU Movie Summary Corpus Dataset consists of over 42,306 movie plot summaries with information about box offices revenue, genres, release date and many more. In our little datastory, sentiment analysis plays the main role. 
+The CMU Movie Summary Corpus Dataset consists of 42,306 movie plot summaries and its meta data. It varies from drama to adventure all the way to fantasy and musicals. Distributing all genres just shows us how dramatic we like to be.
 
 {% include genres.html %}
 
-### Preprocessing pipeline how do we measure?
+### Processing
+By grouping the most common genres into the four main genres action, comedy, drama and horror, which are all very different from each other. But in this little data story, sentiment analysis plays the main role. For every movie, each sentence in the summary gets a continuous sentiment value assigned. This forms the arc and 
+
 
 
 ### Dive into the data, visualize the different genres present and typical movie arcs
