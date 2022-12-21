@@ -7,9 +7,23 @@ cover:  "/assets/James-Bond-No-Time-To-Die-OMEGA-Filmplakat.jpg"
 
 ## Introduction
 
-... there was a princess who needs to be saved from a monster. We all know how this story will end. But is this really the case for all
+... there was a princess who needs to be saved from a monster. We all know how this will end. But is this really the case for every movie? Not only can functions and .. be captured into graphes but also does a story line come in all shapes and curves. **https://www.youtube.com/watch?v=oP3c1h8v2ZQ**
+
+
 
 ## It's time to tell you a story about data
+Every time 
+ 
+### Preprocessing pipeline how do we measure?
+
+
+### Dive into the data, visualize the different genres present and typical movie arcs
+
+### clustering results and explain them based on the above blog
+
+### emotional vs non-emotional and positive vs negative discussion
+
+### movie arc analysis
 
 <a href="//bencentra.com/assets/images/falcon9_large.jpg" data-lightbox="falcon9-large" data-title="Check out the Falcon 9 from SpaceX">
   <img src="//bencentra.com/assets/images/falcon9_small.jpg" title="Check out the Falcon 9 from SpaceX">
