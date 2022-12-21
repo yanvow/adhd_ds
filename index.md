@@ -22,14 +22,20 @@ Join us as we delve into the world of movie storytelling and uncover the secrets
 The CMU Movie Summary Corpus Dataset consists of 42,306 movie plot summaries and its meta data. It varies from drama to adventure all the way to fantasy and musicals. 
 
 {% include genres.html %}
-Drama, Comedy, Thriller/Action, Romance, and Horror are the kings and queens of the genre world! No shocker there, right? These categories always come out on top and dominate the charts. They're just too darn popular to ignore!
+Drama, Comedy, Thriller/Action, Romance, and Horror are the kings and queens of the genre world! No shocker there, right? These categories always come out on top and dominate the charts. They're just too darn popular to ignore! In fact this can be visualized by the follow pie chart that presents the distribution of the genres present in at least 5 movies in the top 100 movies. 
 
 {% include pie_distribution.html %}
 
 We will create four datasets for analysis, focusing on the genres of drama, comedy, thriller/action, and horror. Horror was chosen over romance because romantic movies often overlap with both drama and comedy in their secondary genre classification.
 
 ### Movie arcs
-For groupying the four main genres, we do not need to explain what the difference between them is. No one would put a comedy movie and a horror movie in the same category. They seem very different from each other, but are they really? We are analyzing the plot of every movie from those four genres. In this little data story, sentiment analysis plays the main role. For every movie, each sentence in the summary gets a continuous sentiment value assigned. This shapes the arc throughout the plot summary.
+The emotional story arc of a movie plot refers to the way the emotions of the characters and the audience change over the course of the film. It is often depicted through a character's journey as they experience a range of emotions, including happiness, sadness, anger, fear, and others.
+
+The emotional story arc usually follows a predictable pattern, with the characters starting in a state of normalcy or equilibrium, facing challenges or conflicts that bring about change, and ultimately resolving those conflicts and reaching a new state of equilibrium or understanding. This pattern is often referred to as the "hero's journey" or the "monomyth," and it has been used in countless films and other forms of storytelling.
+
+There are many different variations on the emotional story arc, and the specific emotions that are evoked can vary widely depending on the genre and themes of the film. However, at its core, the emotional story arc is about exploring the emotional experiences of the characters and the way those emotions change and evolve over the course of the story.
+
+Accordingly, in our analysis, we construct the movie arcs as follows. Let us consider the following plot "> "The film opens in 1991, with the funeral of a World War II veteran. The man's daughter Marie  delivers the eulogy to a church full of veterans who knew and loved her father, while her mother Ethel Ann  is sitting out on the church porch, smoking and nursing a hangover. When Ethel Ann begins acting strangely, only her friend Jack  seems to understand why. It quickly emerges that there is a lot Marie does not know about her mother's past and the true story of her love life. The movie flips to a time when this mother was young, lively, and optimistic . She is in love with a young farmer, Teddy Gordon , who goes off to war with his best friends Jack ([[Gregory Smith  and Chuck , but not all of them make it back alive. The plot lines intertwine with the story of a young Ulsterman in Belfast, Jimmy, who finds a ring in the wreckage of a crashed B-17 and is determined to return it to the woman who once owned it. Inadvertently caught up in cross-border troubles, Jimmy flees Belfast, travelling to Michigan to give Ethel the ring. Ethel reveals a wall covered in souvenirs of Teddy, which Jack and Chuck boarded up for her in 1944. Marie is shocked and furious to learn that her mother loved not Chuck, but Teddy's memory. Ethel travels to Belfast with Jimmy. She holds the hand of a dying British soldier caught in a car-bomb attack. Quinlan  tells Ethel that he was on the hill when Teddy died, and that Teddy's dying words freed Ethel from her promise to love him forever. Joining Ethel in Belfast, Jack admits that he has always loved her. They begin a romance.s." - Closing the Ring, 2007.
 
 
 ### (Clustering)
