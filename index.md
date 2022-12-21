@@ -30,6 +30,7 @@ We will create four datasets for analysis, focusing on the genres of drama, come
 By grouping the most common genres into the four main genres action, comedy, drama and horror, which are all very different from each other. But in this little data story, sentiment analysis plays the main role. For every movie, each sentence in the summary gets a continuous sentiment value assigned. This shapes the arc throughout the plot summary.
 
 
+Not only do the arcs differ between the genres but also in the genre itself. With the help of Kmeans clustering, the three most common arcs are derived. By clicking on each genre, the most common clusters and their fraction are shown.
 
 ### Dive into the data, visualize the different genres present and typical movie arcs
 
