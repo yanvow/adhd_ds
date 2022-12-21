@@ -24,6 +24,8 @@ The CMU Movie Summary Corpus Dataset consists of 42,306 movie plot summaries and
 {% include genres.html %}
 Drama, Comedy, Thriller/Action, Romance, and Horror are the kings and queens of the genre world! No shocker there, right? These categories always come out on top and dominate the charts. They're just too darn popular to ignore!
 
+{% include pie_distribution.html %}
+
 We will create four datasets for analysis, focusing on the genres of drama, comedy, thriller/action, and horror. Horror was chosen over romance because romantic movies often overlap with both drama and comedy in their secondary genre classification.
 
 ### Movie arcs
