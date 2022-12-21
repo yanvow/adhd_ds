@@ -23,8 +23,8 @@ The CMU Movie Summary Corpus Dataset consists of 42,306 movie plot summaries and
 
 {% include genres.html %}
 
-### Processing
-By grouping the most common genres into the four main genres action, comedy, drama and horror, which are all very different from each other. But in this little data story, sentiment analysis plays the main role. For every movie, each sentence in the summary gets a continuous sentiment value assigned. This forms the arc and 
+### Movie arcs
+By grouping the most common genres into the four main genres action, comedy, drama and horror, which are all very different from each other. But in this little data story, sentiment analysis plays the main role. For every movie, each sentence in the summary gets a continuous sentiment value assigned. This shapes the arc throughout the plot summary.
 
 
 
