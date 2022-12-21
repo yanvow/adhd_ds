@@ -30,11 +30,28 @@ We will create four datasets for analysis, focusing on the genres of drama, come
 By grouping the most common genres into the four main genres action, comedy, drama and horror, which are all very different from each other. But in this little data story, sentiment analysis plays the main role. For every movie, each sentence in the summary gets a continuous sentiment value assigned. This shapes the arc throughout the plot summary.
 
 
+### (Clustering)
 Not only do the arcs differ between the genres but also in the genre itself. With the help of Kmeans clustering, the three most common arcs are derived. By clicking on each genre, the most common clusters and their fraction are shown.
 
-### Dive into the data, visualize the different genres present and typical movie arcs
 
-### clustering results and explain them based on the above blog
+
+### Emotions in Movies (Rate the feeling)
+Every time we watch, rate or talk about a movie, we influence its success. But where does our opinion come from? There could be an subconscious preference and or mutuality for the feeling a movie tries to radiate. Let's have a closer look...
+
+(shorten questions)
+#### What is the effect of the presence of emotions on the success of the movie, do emotional movies have a higher IMDB rating? Does the effect differ between genres?
+
+#### What is the effect of the positive/negative emotions on the success of the movie, do movies that are predominently positive (more than 50% of the lines are positive) have a higher IMDB rating? or is the opposite effect true? and do the observed effect vary per genre?
+
+
+
+
+#### What is the most profitable movie arc per genre, is their a clear winner among the various clusters?
+
+#### What is the most rated movie arc per genre, is their a clear winner among the various clusters?
+
+#### Does the most typical movie arc change over time? If so, what are the various movie arcs that take place in various time periods, and what are their profitability and rating?
+
 
 ### emotional vs non-emotional and positive vs negative discussion
 
