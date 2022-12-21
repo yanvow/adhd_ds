@@ -1,16 +1,12 @@
 ---
 layout: post
-title:  "test"
-date:   2015-04-18T14:25:52-05:00
-author: Ben Centra
-categories: Dummy
+title:  "Once upon a time..."
+author: Melanie Brtan, Yehya El Hassan, Antoine Métivier, Etienne Monnin
+categories: Jekyll
+tags:	jekyll welcome
+cover:  "/assets/James-Bond-No-Time-To-Die-OMEGA-Filmplakat.jpg"
 ---
 
-This is just a dummy post. Lorem ipsum and all the rest.
+##Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+... there was a.
