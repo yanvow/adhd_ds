@@ -44,9 +44,12 @@ We perform a sentiment Analysis for every line in the plot and then smoothed usi
 {% include emotional_arc.html %}
 
 We created emotional arcs for all the movies in the dataset. The following visualization shows the emotional arcs for a randomly choosen movie in every genre.
+
 {% include emotional_arcs_various.html %}
 
 Visualizing the emotional arc of a single movie may not accurately represent the overall trend for a genre. To get a more accurate picture, it can be helpful to calculate the average sentiment scores for all the movies in the genre.
+
+{% include typical_emotional_arcs_various.html %}
 
 ### (Clustering)
 Not only do the arcs differ between the genres but also in the genre itself. With the help of Kmeans clustering, the three most common arcs are derived. By clicking on each genre, the most common clusters and their fraction are shown.
