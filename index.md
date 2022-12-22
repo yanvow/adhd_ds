@@ -100,7 +100,18 @@ We used the tslearn library to cluster the emotional arcs of movies by genre usi
 
 
 ### Emotions in Movies (Rate the feeling)
-Every time we watch, rate or talk about a movie, we influence its success. But where does our opinion come from? There could be an subconscious preference and or mutuality for the feeling a movie tries to radiate. Let's have a closer look...
+Emotions in movies/cry me a dataflow
+Now that we know how the most present clusters look like, we see that some genres are more emotional compared to the other ones but HOW emotional are they really? But first of all, we need to determine their grade of emotions. A movie is considered either positive, neutral, or negative when more than 50% of the sentences are assigned to the corresponding sentiment value (+1/0/-1). 
+To categorize this further, an emotional movie includes positive and negative movies, whereas a non-emotional movie is considered a neutral movie.
+
+Plot stacked and grouped
+
+From those plots we can see that in every genre, significantly more emotional movies exist. In the emotional category, especially the negative movies dominate. Is the high demand for movies with negative sentiments based on the viewers desire?
+To include the consumer’s opinion, an additional dataset from IMDb was used.
+
+Plot ratings emo and non emo
+
+Plot ratings pos and neg
 
 (shorten questions)
 #### What is the effect of the presence of emotions on the success of the movie, do emotional movies have a higher IMDB rating? Does the effect differ between genres?
