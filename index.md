@@ -33,7 +33,16 @@ The emotional story arc of a movie plot refers to the way the emotions of the ch
 
 The emotional story arc usually follows a predictable pattern, with the characters starting in a state of normalcy or equilibrium, facing challenges or conflicts that bring about change, and ultimately resolving those conflicts and reaching a new state of equilibrium or understanding. This pattern is often referred to as the "hero's journey" or the "monomyth," and it has been used in countless films and other forms of storytelling.
 
-There are many different variations on the emotional story arc, and the specific emotions that are evoked can vary widely depending on the genre and themes of the film. However, at its core, the emotional story arc is about exploring the emotional experiences of the characters and the way those emotions change and evolve over the course of the story.
+There are many different variations on the emotional story arc, and the specific emotions that are evoked can vary widely depending on the genre and themes of the film. However, at its core, the emotional story arc is about exploring the emotional experiences of the characters and the way those emotions change and evolve over the course of the story. An American writer Kurt Vonnegut characterized the main story plots into 6 different types: 
+
+ * "Rags to Riches," in which the protagonist rises to success 
+ * "Riches to Rags," in which the protagonist falls from success
+ * "Man in a Hole," in which the protagonist falls and then rises again 
+ * "Icarus," in which the protagonist rises and then falls
+ * "Cinderella," in which the protagonist rises, falls, and then rises again
+ * "Oedipus," in which the protagonist falls, rises, and then falls again
+
+A pretty interresting video showing Kurt Vonnegut discribing the characterizations can be found here ![story plot characterization] (https://www.youtube.com/watch?v=oP3c1h8v2ZQ&t=1s)
 
 Accordingly, in our analysis, we construct the movie arcs as follows. Let us consider the following plot 
 
@@ -50,6 +59,10 @@ We created emotional arcs for all the movies in the dataset. The following visua
 Visualizing the emotional arc of a single movie may not accurately represent the overall trend for a genre. To get a more accurate picture, it can be helpful to calculate the average sentiment scores for all the movies in the genre.
 
 {% include typical_emotional_arcs_various.html %}
+
+Did you see those plots? They are absolutely mesmerizing! I can't stop staring at them. Do you know why? 
+
+By closely observing the typical movie arcs, we can see that the typical action movie follows a "Cinderella" story arc, while both the Drama and Comedy follows a "Man in a Hole" and the horror movie follows a "Oedipus" story arc.
 
 ### (Clustering)
 Not only do the arcs differ between the genres but also in the genre itself. With the help of Kmeans clustering, the three most common arcs are derived. By clicking on each genre, the most common clusters and their fraction are shown.
