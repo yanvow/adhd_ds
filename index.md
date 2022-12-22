@@ -125,13 +125,20 @@ To include the consumer’s opinion, an additional dataset from IMDb was used.
 #### What is the effect of the positive/negative emotions on the success of the movie, do movies that are predominently positive (more than 50% of the lines are positive) have a higher IMDB rating? or is the opposite effect true? and do the observed effect vary per genre?
 
 {% include timeline_rating_en_action.html %}
+
 {% include timeline_rating_en_horror.html %}
+
 {% include timeline_rating_en_drama.html %}
+
 {% include timeline_rating_en_comedy.html %}
 
+
 {% include timeline_ID_en_action.html %}
+
 {% include timeline_ID_en_horror.html %}
+
 {% include timeline_ID_en_drama.html %}
+
 {% include timeline_ID_en_comedy.html %}
 
 
