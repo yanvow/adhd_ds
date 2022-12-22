@@ -125,14 +125,7 @@ We can see that from the obtained comparison of the ratings, that drama movies a
 
 Show time lines revenue and ratings for all movies over time
 
-The movie industry has boomed in the 80's and only been rising since then. Going back to the beginning of this data story, we have identified the most common movie arcs in every genre. This can lead us a little closer to finding the best movie arc of the genre. 
-
-show most rated arc per genre
-
-Much has changed over the years and so did cinema. But did the story change too?
-
-show clusters over time
-
+The movie industry has boomed in the 80's and only been rising since then. 
 
 
 #### What is the effect of the positive/negative emotions on the success of the movie, do movies that are predominently positive (more than 50% of the lines are positive) have a higher IMDB rating? or is the opposite effect true? and do the observed effect vary per genre?
@@ -154,6 +147,19 @@ show clusters over time
 
 {% include timeline_ID_en_comedy.html %}
 
+
+
+
+
+### Analysis of movie arcs
+
+Going back to the beginning of this data story, we have identified the most common movie arcs in every genre. This can lead us a little closer to finding the best movie arc of the genre. 
+
+show most rated arc per genre
+
+Much has changed over the years and so did cinema. But did the story change too?
+
+show clusters over time
 
 #### What is the most profitable movie arc per genre, is there a clear winner among the various clusters?
 
