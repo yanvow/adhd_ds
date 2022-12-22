@@ -41,12 +41,12 @@ The emotional story arc of a movie plot refers to the way the emotions of the ch
 
 There are many different variations on the emotional story arc, and the specific emotions that are evoked can vary widely depending on the genre and themes of the film. However, at its core, the emotional story arc is about exploring the emotional experiences of the characters and the way those emotions change and evolve over the course of the story. An American writer Kurt Vonnegut characterized the main story plots into 6 different types: 
 
- * "Rags to Riches," in which the protagonist rises to success 
- * "Riches to Rags," in which the protagonist falls from success
- * "Man in a Hole," in which the protagonist falls and then rises again 
- * "Icarus," in which the protagonist rises and then falls
- * "Cinderella," in which the protagonist rises, falls, and then rises again
- * "Oedipus," in which the protagonist falls, rises, and then falls again
+ * **Rags to Riches** in which the protagonist rises to success 
+ * **Riches to Rags** in which the protagonist falls from success
+ * **Man in a Hole** in which the protagonist falls and then rises again 
+ * **Icarus** in which the protagonist rises and then falls
+ * **Cinderella** in which the protagonist rises, falls, and then rises again
+ * **Oedipus** in which the protagonist falls, rises, and then falls again
 
 A pretty interresting video showing Kurt Vonnegut discribing the characterizations can be found [here](https://www.youtube.com/watch?v=oP3c1h8v2ZQ&t=1s "here")
 
