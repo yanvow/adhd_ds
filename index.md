@@ -107,7 +107,7 @@ To categorize this further, an emotional movie includes positive and negative mo
 Plot stacked and grouped
 
 From those plots we can see that in every genre, significantly more emotional movies exist. In the emotional category, especially the negative movies dominate. Is the high demand for movies with negative sentiments based on the viewers desire?
-To include the consumer’s opinion, an additional dataset from IMDb was used.
+To include the consumer’s opinion, an additional dataset from IMDb was used. It compares the mean rating for emotional and non-emotional movies in each genre, as well as the ratings for positive and negative movies.
 
 Plot ratings emo and non emo
 
