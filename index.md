@@ -22,7 +22,7 @@ Join us as we delve into the world of movie storytelling and uncover the secrets
 The CMU Movie Summary Corpus Dataset consists of 42,306 movie plot summaries and its meta data. It varies from drama to adventure all the way to fantasy and musicals. 
 
 {% include genres.html %}
-Drama, Comedy, Thriller/Action, Romance, and Horror are the kings and queens of the genre world! No shocker there, right? These categories always come out on top and dominate the charts. They're just too darn popular to ignore! In fact this can be visualized by the follow pie chart that presents the distribution of the genres present in at least 5 movies in the top 100 movies. 
+Drama, Comedy, Thriller/Action, Romance, and Horror are the kings and queens of the genre world! No shocker there, right? These categories always come out on top and dominate the charts. They're just too darn popular to ignore! In fact this can be visualized by the follow pie chart that presents the distribution of the genres present in at least 5 movies in the top 100 rated movies. 
 
 {% include pie_distribution.html %}
 
@@ -40,7 +40,7 @@ There are many different variations on the emotional story arc, and the specific
  * "Cinderella," in which the protagonist rises, falls, and then rises again
  * "Oedipus," in which the protagonist falls, rises, and then falls again
 
-A pretty interresting video showing Kurt Vonnegut discribing the characterizations can be found here ![story plot characterization] (https://www.youtube.com/watch?v=oP3c1h8v2ZQ&t=1s)
+A pretty interresting video showing Kurt Vonnegut discribing the characterizations can be found here [Link Text](https://www.youtube.com/watch?v=oP3c1h8v2ZQ&t=1s "Link Title")
 
 Accordingly, in our analysis, we construct the movie arcs as follows. Let us consider the following plot 
 
