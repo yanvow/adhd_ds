@@ -68,7 +68,7 @@ Visualizing the emotional arc of a single movie may not accurately represent the
 
 Did you see those plots? They are absolutely mesmerizing! I can't stop staring at them. Do you know why? 
 
-By closely observing the typical movie arcs, we can see that the typical **action** movie follows a **"Cinderella"** story arc, while a typical **Drama** movie falls between a **"Man in a Hole"** and **"Cinderella**. **Comedy** on the otherhand follows a **"Man in a Hole"** and the **Horror** movie follows a **"Oedipus"** story arc.
+By closely observing the typical movie arcs, we can see that the typical **Action** movie follows a **"Cinderella"** story arc, while a typical **Drama** movie falls between a **"Man in a Hole"** and **"Cinderella** story arcs. A typical **Comedy** movie on the otherhand follows a **"Man in a Hole"** and the typical **Horror** movie follows a **"Oedipus"** story arc.
 
 The results accurately reflect reality. To demonstrate this, let's compare them to the drama movie "Parasite," released in 2019. "Parasite" follows a poor family who initially lives peacefully but becomes intertwined with a wealthy family. As the movie progresses, increasingly dramatic events unfold, culminating in a murder by a member of the poor family. This marks the most negative point in the movie. The poor family then goes into hiding until the end of the movie, when they are finally free. This can be accurately depicted with the Drama Movie Arc! 
 
