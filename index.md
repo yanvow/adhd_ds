@@ -111,7 +111,7 @@ To categorize this further, an emotional movie includes positive and negative mo
 add that many drama's exist
 
 From those plots we can see that in every genre, significantly more emotional movies exist. In the emotional category, especially the negative movies dominate. Is the high demand for movies with negative sentiments based on the viewers desire?
-To include the consumer’s opinion, an additional dataset from IMDb was used. So we can compare the mean rating for emotional and non-emotional movies in every genre:
+To include the consumer’s opinion, an additional dataset from IMDb was used. So, we can compare the mean rating for emotional and non-emotional movies in every genre:
 
 {% include bars_ratings_emo_nonemo.html %}
 
@@ -121,9 +121,18 @@ As well as for the ratings of positive and negative movies:
 
 
 #### Is it possible for a film to excel without tugging at our heartstrings?
-Looking at the comparison of the ratings, we would answer this question with a yes. The ratings are almost the same for the emotional and non-emotional movies. To match the liking of the audience and the outcome of a movie's future, is nearly impossible. But do emotional scenes truly matter in the grand scheme of a movie's success? The best way to measure success in the movie industry, are revenues. Based on the sales of the movie's box office, we can observe the trend of every genre over the years.
+We can see that from the obtained comparison of the ratings, that drama movies are the watcher's favourites, while horror movies is not something for everybody. But again the majority for all cases lies in the emotional movies. (no big difference tho!!!) So which emotions specifically appeal better to the customer? People tend to prefer movies with negative scences. But to predict the movie's success based on the liking of the audience, is nearly impossible. Therefore, we want to see which kind of movie could get into the top league of all times. The best way to measure success in the movie industry, are revenues. Based on the sales of the movie's box office, we can observe the trend of every genre over the years.
 
-But looking at the ratings between every genre, the ratings differ a lot more. 
+Show time lines revenue and ratings for all movies over time
+
+The movie industry has boomed in the 80's and only been rising since then. Going back to the beginning of this data story, we have identified the most common movie arcs in every genre. This can lead us a little closer to finding the best movie arc of the genre. 
+
+show most rated arc per genre
+
+Much has changed over the years and so did cinema. But did the story change too?
+
+show clusters over time
+
 
 
 #### What is the effect of the positive/negative emotions on the success of the movie, do movies that are predominently positive (more than 50% of the lines are positive) have a higher IMDB rating? or is the opposite effect true? and do the observed effect vary per genre?
