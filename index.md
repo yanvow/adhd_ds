@@ -31,8 +31,6 @@ We will create four datasets for analysis, focusing on the genres of drama, come
 ### Movie arcs
 The emotional story arc of a movie plot refers to the way the emotions of the characters and the audience change over the course of the film. It is often depicted through a character's journey as they experience a range of emotions, including happiness, sadness, anger, fear, and others.
 
-The emotional story arc usually follows a predictable pattern, with the characters starting in a state of normalcy or equilibrium, facing challenges or conflicts that bring about change, and ultimately resolving those conflicts and reaching a new state of equilibrium or understanding. This pattern is often referred to as the "hero's journey" or the "monomyth," and it has been used in countless films and other forms of storytelling.
-
 There are many different variations on the emotional story arc, and the specific emotions that are evoked can vary widely depending on the genre and themes of the film. However, at its core, the emotional story arc is about exploring the emotional experiences of the characters and the way those emotions change and evolve over the course of the story. An American writer Kurt Vonnegut characterized the main story plots into 6 different types: 
 
  * "Rags to Riches," in which the protagonist rises to success 
