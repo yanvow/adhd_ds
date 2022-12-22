@@ -40,7 +40,7 @@ There are many different variations on the emotional story arc, and the specific
  * "Cinderella," in which the protagonist rises, falls, and then rises again
  * "Oedipus," in which the protagonist falls, rises, and then falls again
 
-A pretty interresting video showing Kurt Vonnegut discribing the characterizations can be found [Link Text](https://www.youtube.com/watch?v=oP3c1h8v2ZQ&t=1s "here")
+A pretty interresting video showing Kurt Vonnegut discribing the characterizations can be found [here](https://www.youtube.com/watch?v=oP3c1h8v2ZQ&t=1s "here")
 
 Accordingly, in our analysis, we construct the movie arcs as follows. Let us consider the following plot 
 
