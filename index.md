@@ -68,7 +68,7 @@ Visualizing the emotional arc of a single movie may not accurately represent the
 
 Did you see those plots? They are absolutely mesmerizing! I can't stop staring at them. Do you know why? 
 
-By closely observing the typical movie arcs, we can see that the typical **Action** movie follows a **"Cinderella"** story arc, while a typical **Drama** movie falls between a **"Man in a Hole"** and **"Cinderella** story arcs. A typical **Comedy** movie on the otherhand follows a **"Man in a Hole"** and the typical **Horror** movie follows a **"Oedipus"** story arc.
+By closely observing the typical movie arcs, we can see that the typical **Action** movie follows a **"Cinderella"** story arc, while a typical **Drama** movie falls between a **"Man in a Hole"** and **"Cinderella"** story arcs. A typical **Comedy** movie on the otherhand follows a **"Man in a Hole"** and the typical **Horror** movie follows a **"Oedipus"** story arc.
 
 The results accurately reflect reality. To demonstrate this, let's compare them to the drama movie "Parasite," released in 2019. "Parasite" follows a poor family who initially lives peacefully but becomes intertwined with a wealthy family. As the movie progresses, increasingly dramatic events unfold, culminating in a murder by a member of the poor family. This marks the most negative point in the movie. The poor family then goes into hiding until the end of the movie, when they are finally free. This can be accurately depicted with the Drama Movie Arc! 
 
@@ -107,6 +107,8 @@ Now that we know how the most present clusters look like, we see that some genre
 To categorize this further, an emotional movie includes positive and negative movies, whereas a non-emotional movie is considered a neutral movie.
 
 {% include emo_pl.html %}
+
+add that many drama's exist
 
 From those plots we can see that in every genre, significantly more emotional movies exist. In the emotional category, especially the negative movies dominate. Is the high demand for movies with negative sentiments based on the viewers desire?
 To include the consumer’s opinion, an additional dataset from IMDb was used. So we can compare the mean rating for emotional and non-emotional movies in every genre:
