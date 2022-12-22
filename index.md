@@ -82,10 +82,9 @@ The representative story arcs for the 3 different clusters found in the Horror g
 
 {% include Horror_clusters.html %}
 
-The optimal nunber of clusters fo
+We used the tslearn library to cluster the emotional arcs of movies by genre using two different representations of time series data and the Silhouette score to evaluate the quality of the clusters and choose the optimal number of clusters. 
 
-We used the tslearn library to cluster the emotional arcs of movies by genre using two different representations of time series data and the Silhouette score to evaluate the quality of the clusters.
-
+{% include silhoutte.html %}
 
 
 ### Emotions in Movies (Rate the feeling)
