@@ -64,7 +64,27 @@ By closely observing the typical movie arcs, we can see that the typical action 
 
 ### A Deeper Dive into each Typical Story arc.
 
-Not only do the arcs differ between the genres but also in the genre itself. With the help of Time series Kmeans clustering, the most common arcs are derived. By clicking on each genre, the most common clusters and their fraction are shown.
+The story arcs in different genres can vary significantly. To identify the most common arcs within a genre, we used Time series Kmeans clustering and the Tslearn Library with the soft dynamic time wrapping distance metric. After running the clustering algorithm, each movie in the genre is assigned to a cluster. By finding the barycenter of these clusters, we were able to determine the representative story arc for each cluster.
+
+The representative story arcs for the 3 different clusters found in the Action genre are:
+
+{% include Action_clusters.html %}
+
+The representative story arcs for the 4 different clusters found in the Drama genre are:
+
+{% include Drama_clusters.html %}
+
+The representative story arcs for the 3 different clusters found in the Comedy genre are:
+
+{% include Comedy_clusters.html %}
+
+The representative story arcs for the 3 different clusters found in the Horror genre are:
+
+{% include Horror_clusters.html %}
+
+The optimal nunber of clusters fo
+
+We used the tslearn library to cluster the emotional arcs of movies by genre using two different representations of time series data and the Silhouette score to evaluate the quality of the clusters.
 
 
 
