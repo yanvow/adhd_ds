@@ -40,7 +40,7 @@ There are many different variations on the emotional story arc, and the specific
  * "Cinderella," in which the protagonist rises, falls, and then rises again
  * "Oedipus," in which the protagonist falls, rises, and then falls again
 
-A pretty interresting video showing Kurt Vonnegut discribing the characterizations can be found here [Link Text](https://www.youtube.com/watch?v=oP3c1h8v2ZQ&t=1s "Link Title")
+A pretty interresting video showing Kurt Vonnegut discribing the characterizations can be found [Link Text](https://www.youtube.com/watch?v=oP3c1h8v2ZQ&t=1s "here")
 
 Accordingly, in our analysis, we construct the movie arcs as follows. Let us consider the following plot 
 
@@ -62,8 +62,9 @@ Did you see those plots? They are absolutely mesmerizing! I can't stop staring a
 
 By closely observing the typical movie arcs, we can see that the typical action movie follows a "Cinderella" story arc, while both the Drama and Comedy follows a "Man in a Hole" and the horror movie follows a "Oedipus" story arc.
 
-### (Clustering)
-Not only do the arcs differ between the genres but also in the genre itself. With the help of Kmeans clustering, the three most common arcs are derived. By clicking on each genre, the most common clusters and their fraction are shown.
+### A Deeper Dive into each Typical Story arc.
+
+Not only do the arcs differ between the genres but also in the genre itself. With the help of Time series Kmeans clustering, the most common arcs are derived. By clicking on each genre, the most common clusters and their fraction are shown.
 
 
 
