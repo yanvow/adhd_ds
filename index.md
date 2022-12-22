@@ -112,23 +112,34 @@ To categorize this further, an emotional movie includes positive and negative mo
 From those plots we can see that in every genre, significantly more emotional movies exist. In the emotional category, especially the negative movies dominate. Is the high demand for movies with negative sentiments based on the viewers desire?
 To include the consumer’s opinion, an additional dataset from IMDb was used.
 
-Plot ratings emo and non emo
+{% bars_rating_emo_nonemo.html %}
 
-Plot ratings pos and neg
+{% include bars_rating_pn.html %}
+
+
+
 
 (shorten questions)
 #### But do emotional scenes truly matter in the grand scheme of a movie's success? Is it possible for a film to excel without tugging at our heartstrings?
 
 #### What is the effect of the positive/negative emotions on the success of the movie, do movies that are predominently positive (more than 50% of the lines are positive) have a higher IMDB rating? or is the opposite effect true? and do the observed effect vary per genre?
 
+{% include timeline_rating_en_action.html %}
+{% include timeline_rating_en_horror.html %}
+{% include timeline_rating_en_drama.html %}
+{% include timeline_rating_en_comedy.html %}
+
+{% include timeline_ID_en_action.html %}
+{% include timeline_ID_en_horror.html %}
+{% include timeline_ID_en_drama.html %}
+{% include timeline_ID_en_comedy.html %}
+
+
+#### What is the most profitable movie arc per genre, is there a clear winner among the various clusters?
 
 
 
-#### What is the most profitable movie arc per genre, is their a clear winner among the various clusters?
-
-
-
-#### What is the most rated movie arc per genre, is their a clear winner among the various clusters?
+#### What is the most rated movie arc per genre, is there a clear winner among the various clusters?
 
 
 
