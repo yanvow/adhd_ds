@@ -102,25 +102,27 @@ According to the silhouette graph, the optimal number of clusters for action mov
 
 You may be wondering which cluster within each genre is the most successful in terms of profitability and IMDB rating. Let's continue uncovering the perfect recipe for a successful movie in each genre.
 
-### Emotions in Movies (Rate the feeling)
-Emotions in movies/cry me a dataflow
+### Emotions in Movies
 Now that we know how the most present clusters look like, we see that some genres are more emotional compared to the other ones but HOW emotional are they really? But first of all, we need to determine their grade of emotions. A movie is considered either positive, neutral, or negative when more than 50% of the sentences are assigned to the corresponding sentiment value (+1/0/-1). 
 To categorize this further, an emotional movie includes positive and negative movies, whereas a non-emotional movie is considered a neutral movie.
 
 {% include emo_pl.html %}
 
 From those plots we can see that in every genre, significantly more emotional movies exist. In the emotional category, especially the negative movies dominate. Is the high demand for movies with negative sentiments based on the viewers desire?
-To include the consumer’s opinion, an additional dataset from IMDb was used.
+To include the consumer’s opinion, an additional dataset from IMDb was used. So we can compare the mean rating for emotional and non-emotional movies in every genre:
 
 {% bars_rating_emo_nonemo.html %}
+
+As well as for the ratings of positive and negative movies:
 
 {% include bars_rating_pn.html %}
 
 
+#### Is it possible for a film to excel without tugging at our heartstrings?
+Looking at the comparison of the ratings, we would answer this question with a yes. The ratings are almost the same for the emotional and non-emotional movies. To match the liking of the audience and the outcome of a movie's future, is nearly impossible. But do emotional scenes truly matter in the grand scheme of a movie's success? The best way to measure success in the movie industry, are revenues. Based on the sales of the movie's box office, we can observe the trend of every genre over the years.
 
+But looking at the ratings between every genre, the ratings differ a lot more. 
 
-(shorten questions)
-#### But do emotional scenes truly matter in the grand scheme of a movie's success? Is it possible for a film to excel without tugging at our heartstrings?
 
 #### What is the effect of the positive/negative emotions on the success of the movie, do movies that are predominently positive (more than 50% of the lines are positive) have a higher IMDB rating? or is the opposite effect true? and do the observed effect vary per genre?
 
