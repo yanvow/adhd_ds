@@ -28,6 +28,13 @@ Drama, Comedy, Thriller/Action, Romance, and Horror are the kings and queens of 
 
 We will create four datasets for analysis, focusing on the genres of drama, comedy, thriller/action, and horror. Horror was chosen over romance because romantic movies often overlap with both drama and comedy in their secondary genre classification.
 
+| Genre | Dataset Size |
+| Action | 2476 |
+| Horror | 1273 |
+| Drama | 7511|
+| Comedy | 4602 |
+
+
 ### Movie arcs
 The emotional story arc of a movie plot refers to the way the emotions of the characters and the audience change over the course of the film. It is often depicted through a character's journey as they experience a range of emotions, including happiness, sadness, anger, fear, and others.
 
