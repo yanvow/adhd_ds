@@ -70,9 +70,9 @@ Did you see those plots? They are absolutely mesmerizing! I can't stop staring a
 
 By closely observing the typical movie arcs, we can see that the typical **action** movie follows a **"Cinderella"** story arc, while a typical **Drama** movie falls between a **"Man in a Hole"** and **"Cinderella**. **Comedy** on the otherhand follows a **"Man in a Hole"** and the **Horror** movie follows a **"Oedipus"** story arc.
 
-The results accurately reflect reality. To demonstrate this, let's compare them to the drama movie "Parasite," released in 2019. "Parasite" follows a poor family who initially lives peacefully but becomes intertwined with a wealthy family. As the movie progresses, increasingly dramatic events unfold, culminating in a murder by a member of the poor family. This marks the most negative point in the movie. The poor family then goes into hiding until the end of the movie, when they are finally free. This can be accurately depicted wit the Drama Movie Arc! 
+The results accurately reflect reality. To demonstrate this, let's compare them to the drama movie "Parasite," released in 2019. "Parasite" follows a poor family who initially lives peacefully but becomes intertwined with a wealthy family. As the movie progresses, increasingly dramatic events unfold, culminating in a murder by a member of the poor family. This marks the most negative point in the movie. The poor family then goes into hiding until the end of the movie, when they are finally free. This can be accurately depicted with the Drama Movie Arc! 
 
-Furthermore, as humans, we tend to prefer happy endings. This is reflected in the results, as all four genres, including horror (yet less obvious), show an increase in score at the end of the movie.
+As humans, we crave happy endings and the results reflect this desire. All four genres, even horror, though less clearly, demonstrate an increase in score at the end of the movie.
 
 ### A Deeper Dive into each Typical Story arc.
 
@@ -98,6 +98,9 @@ We used the tslearn library to cluster the emotional arcs of movies by genre usi
 
 {% include silhoutte.html %}
 
+According to the silhouette graph, the optimal number of clusters for action movies is 3, for drama movies is 4, for comedy movies is 3, and for horror movies is 3. Additionally, using discrete features rather than continuous features results in a higher silhouette score. Therefore, we use the resulting number of clusters and discrete features to perform timeseries clustering.
+
+You may be wondering which cluster within each genre is the most successful in terms of profitability and IMDB rating. Let's continue uncovering the perfect recipe for a successful movie in each genre.
 
 ### Emotions in Movies (Rate the feeling)
 Emotions in movies/cry me a dataflow
@@ -107,14 +110,14 @@ To categorize this further, an emotional movie includes positive and negative mo
 Plot stacked and grouped
 
 From those plots we can see that in every genre, significantly more emotional movies exist. In the emotional category, especially the negative movies dominate. Is the high demand for movies with negative sentiments based on the viewers desire?
-To include the consumer’s opinion, an additional dataset from IMDb was used. It compares the mean rating for emotional and non-emotional movies in each genre, as well as the ratings for positive and negative movies.
+To include the consumer’s opinion, an additional dataset from IMDb was used.
 
 Plot ratings emo and non emo
 
 Plot ratings pos and neg
 
 (shorten questions)
-#### What is the effect of the presence of emotions on the success of the movie, do emotional movies have a higher IMDB rating? Does the effect differ between genres?
+#### But do emotional scenes truly matter in the grand scheme of a movie's success? Is it possible for a film to excel without tugging at our heartstrings?
 
 #### What is the effect of the positive/negative emotions on the success of the movie, do movies that are predominently positive (more than 50% of the lines are positive) have a higher IMDB rating? or is the opposite effect true? and do the observed effect vary per genre?
 
