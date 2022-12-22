@@ -26,7 +26,7 @@ Drama, Comedy, Thriller/Action, Romance, and Horror are the kings and queens of 
 
 {% include pie_distribution.html %}
 
-We will create four datasets for analysis, focusing on the genres of drama, comedy, thriller/action, and horror. Horror was chosen over romance because romantic movies often overlap with both drama and comedy in their secondary genre classification.
+We will create four datasets for analysis, focusing on the genres of drama, comedy, thriller/action, and horror. Horror was chosen over romance because romantic movies often overlap with both drama and comedy in their secondary genre classification. With that, the corresponding constructed dataset consists of:
 
 | Genre | Dataset Size |
 | --- | --- |
@@ -54,7 +54,7 @@ Accordingly, in our analysis, we construct the movie arcs as follows. Let us con
 
 >"The film opens in 1991, with the funeral of a World War II veteran. The man's daughter Marie  delivers the eulogy to a church full of veterans who knew and loved her father, while her mother Ethel Ann  is sitting out on the church porch, smoking and nursing a hangover. When Ethel Ann begins acting strangely, only her friend Jack  seems to understand why. It quickly emerges that there is a lot Marie does not know about her mother's past and the true story of her love life. The movie flips to a time when this mother was young, lively, and optimistic . She is in love with a young farmer, Teddy Gordon , who goes off to war with his best friends Jack, Gregory, Smith  and Chuck, but not all of them make it back alive. The plot lines intertwine with the story of a young Ulsterman in Belfast, Jimmy, who finds a ring in the wreckage of a crashed B-17 and is determined to return it to the woman who once owned it. Inadvertently caught up in cross-border troubles, Jimmy flees Belfast, travelling to Michigan to give Ethel the ring. Ethel reveals a wall covered in souvenirs of Teddy, which Jack and Chuck boarded up for her in 1944. Marie is shocked and furious to learn that her mother loved not Chuck, but Teddy's memory. Ethel travels to Belfast with Jimmy. She holds the hand of a dying British soldier caught in a car-bomb attack. Quinlan  tells Ethel that he was on the hill when Teddy died, and that Teddy's dying words freed Ethel from her promise to love him forever. Joining Ethel in Belfast, Jack admits that he has always loved her. They begin a romance.s." - Closing the Ring, 2007.
 
-We perform a sentiment Analysis for every line in the plot and then smoothed using a polynomial of order 3, accordingly the generated emotion arc is
+We perform sentiment analysis on each line in the plot and smooth the results using a third-order polynomial. The resulting emotion arc is generated accordingly.
 
 {% include emotional_arc.html %}
 
@@ -68,7 +68,11 @@ Visualizing the emotional arc of a single movie may not accurately represent the
 
 Did you see those plots? They are absolutely mesmerizing! I can't stop staring at them. Do you know why? 
 
-By closely observing the typical movie arcs, we can see that the typical action movie follows a "Cinderella" story arc, while both the Drama and Comedy follows a "Man in a Hole" and the horror movie follows a "Oedipus" story arc.
+By closely observing the typical movie arcs, we can see that the typical **action** movie follows a **"Cinderella"** story arc, while a typical **Drama** movie falls between a **"Man in a Hole"** and **"Cinderella**. **Comedy** on the otherhand follows a **"Man in a Hole"** and the **Horror** movie follows a **"Oedipus"** story arc.
+
+The results accurately reflect reality. To demonstrate this, let's compare them to the drama movie "Parasite," released in 2019. "Parasite" follows a poor family who initially lives peacefully but becomes intertwined with a wealthy family. As the movie progresses, increasingly dramatic events unfold, culminating in a murder by a member of the poor family. This marks the most negative point in the movie. The poor family then goes into hiding until the end of the movie, when they are finally free. This can be accurately depicted wit the Drama Movie Arc! 
+
+Furthermore, as humans, we tend to prefer happy endings. This is reflected in the results, as all four genres, including horror (yet less obvious), show an increase in score at the end of the movie.
 
 ### A Deeper Dive into each Typical Story arc.
 
