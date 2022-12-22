@@ -29,6 +29,7 @@ Drama, Comedy, Thriller/Action, Romance, and Horror are the kings and queens of 
 We will create four datasets for analysis, focusing on the genres of drama, comedy, thriller/action, and horror. Horror was chosen over romance because romantic movies often overlap with both drama and comedy in their secondary genre classification.
 
 | Genre | Dataset Size |
+| --- | --- |
 | Action | 2476 |
 | Horror | 1273 |
 | Drama | 7511|
