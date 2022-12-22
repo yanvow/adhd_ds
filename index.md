@@ -111,11 +111,11 @@ To categorize this further, an emotional movie includes positive and negative mo
 From those plots we can see that in every genre, significantly more emotional movies exist. In the emotional category, especially the negative movies dominate. Is the high demand for movies with negative sentiments based on the viewers desire?
 To include the consumer’s opinion, an additional dataset from IMDb was used. So we can compare the mean rating for emotional and non-emotional movies in every genre:
 
-{% bars_rating_emo_nonemo.html %}
+{% bars_ratings_emo_nonemo.html %}
 
 As well as for the ratings of positive and negative movies:
 
-{% include bars_rating_pn.html %}
+{% include bars_ratings_pn.html %}
 
 
 #### Is it possible for a film to excel without tugging at our heartstrings?
