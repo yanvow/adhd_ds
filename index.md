@@ -138,10 +138,13 @@ Unfortunately, we did not observe any significant effect, as none of the p-value
 
 #### Okay then! ... Which do we prefer: positive or negative themed movies?
   
-Eureka! For the emotional movies a significant effect has been found. In Action and Drama movies it shows that negative movies have an effect on the rating. In both cases the negative movies are higher rated. (add why do people prefer negative sentiments?) For the categories Horror and Comedy, the lacking correlation is due to the fact that the performed sentiment analysis, which was performed on the plot, does not reflect the emotions during the movie itself. As the jokes from a comedy movie won't be written in the plot discription.
+We are thrilled to announce that our analysis has uncovered a significant impact of emotions on movie ratings in the Action and Drama genres! Our findings indicate that negative movies in these genres tend to be rated higher than positive movies.
 
+It is worth noting that our analysis did not reveal a correlation between emotions and ratings in the Horror and Comedy genres. This may be because the sentiment analysis we conducted, which was based on the movie plot descriptions, does not accurately reflect the emotions experienced during the movie itself. For example, the jokes in a comedy movie may not be conveyed in the plot description.
 
-### Movie Arc analysis/Noah's Arc to success (better title needed)
+It is not entirely clear why people may prefer negative sentiments in Action and Drama movies, but it could be that these emotions add depth and complexity to the story, making for a more engaging and compelling film. Further research may be needed to understand the factors that influence movie ratings and audience preferences.
+
+### Let's proceed! ...Let us add the Movie Arcs into our Analysis.
 The best way to measure success in the movie industry, are ratings and revenues. After getting to know about the ratings, it is time to talk about buisness. Based on the sales of the movie's box office, the revenue determines the profitability of a movie. Going back to the beginning of this data story, where we have identified the most common movie arcs in every genre, we want to know for which movie arc will predict success. 
 
 ##### Revenue
