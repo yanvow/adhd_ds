@@ -122,7 +122,7 @@ As well as for the ratings of positive and negative movies:
 
 {% include bars_ratings_pn.html %}
   
-It's interesting to see that drama is the highest rated genre, while horror is the lowest. Some possible reasons for why drama might be more highly rated could include:
+It's interesting to see that drama is rated higher than the horror. Some possible reasons for why drama might be more highly rated could include:
 
  * Drama films often explore complex, relatable themes and emotions, which can be highly compelling for many viewers.
  * Many drama films are based on true stories or historical events, which can be highly engaging for viewers who are interested in learning more about the world around them.
