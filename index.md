@@ -102,7 +102,8 @@ According to the silhouette graph, the optimal number of clusters for action mov
 
 You may be wondering which cluster within each genre is the most successful in terms of profitability and IMDB rating. Let's continue uncovering the perfect recipe for a successful movie in each genre.
 
-### Emotions in Movies (better title needed)
+### The Emotional Influence of Movies: How Does Sentiment Affect Success?
+
 Now that we have a better understanding of the most prevalent clusters, it appears that certain genres tend to be more emotional compared to others. But how does the presence of emotion impact the success of a movie, as measured by ratings and revenue? To analyze this, we will first classify the different emotions present in a movie. A movie can be classified as positive, neutral, or negative if over 50% of the sentences in the movie are assigned one of these sentiment values (positive +1 / neutral 0 /negative -1). We can further categorize these movies as emotional (including both positive and negative movies) or non-emotional (consisting only of neutral movies).
 
 {% include emo_pl.html %}
