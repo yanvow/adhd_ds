@@ -158,20 +158,24 @@ Is it any surprise that we all want to see the main character triumph over their
 {% include most_rated_arc.html %}
 
 
-#### Revenue
-The best way to measure success in the movie industry, are ratings and revenues. After getting to know about the ratings, it is time to talk about buisness. Based on the sales of the movie's box office, the revenue determines the profitability of a movie. Going back to the beginning of this data story, where we have identified the most common movie arcs in every genre, we want to know for which movie arc will predict success. 
+### Revenue
+While ratings give us an idea of a movie's critical reception, revenues provide insight into its financial performance. Based on the data we've gathered on the most common movie arcs in each genre, we want to determine which arc is most likely to predict success. To do this, we have analyzed the box office sales of each arc over time, calculating the confidence level and p-value to determine which arc has the highest sales and whether that result is statistically significant. 
   
-To find the most profitable movie arc, we have analyzed the box office over the year for each arc by calculating the confidence level and p-value. It presents, which arc has the most sales over a certain amount of time and its significance. (the analsysis results also already explain for question 2.5?) 
+To evaluate the profitability of the movie arcs, we divided the dataset into four periods based on the number of movies in each period, rather than the length of time. This allowed us to analyze the profitability of the arcs using a consistent sample size, even though the time periods were not of equal length.
+  
+A visualization of the evolution of box office revenue distribution among the various clusters of **Action** movies:
+{% include Action_revenues.html %}
 
-{% include most_profitable_arc.html %}
+A visualization of the evolution of box office revenue distribution among the various clusters of **Horror** movies:
+{% include Horror_revenues.html %}
 
-(add analysis which one it is)
-plots and confusion matrix or so for the many values
+ A visualization of the evolution of box office revenue distribution among the various clusters of **Drama** movies:
+{% include Drama_revenues.html %}
 
-(add analysis which one it is)
+ A visualization of the evolution of box office revenue distribution among the various clusters of **Comedy** movies:
+{% include Comedy_revenues.html %}
+    
 
-
-(Sum up which ones are the best from ratings and profit)
 Much has changed over the years and so did cinema. But did the story lines/movie arcs change too? By presenting the best arcs in relation to revenue and ratings, we show the evolution of the arc in a timeline. Comparing the rating and revenue in the same plot, indicates certain changes over time and visualizes its commonalities.
 
 {% include timeline_rating_clusters_action.html %}
