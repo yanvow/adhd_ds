@@ -130,28 +130,6 @@ add table or any kind of cool matrix
 
 Eureka! For the emotional movies a significant effect has been found. In Action and Drama movies it shows that negative movies have an effect on the rating. In both cases the negative movies are higher rated. (add why do people prefer negative sentiments?) For the categories Horror and Comedy, the lacking correlation is due to the fact that the performed sentiment analysis, which was performed on the plot, does not reflect the emotions during the movie itself. As the jokes from a comedy movie won't be written in the plot discription.
 
-(are the plots of ratings and counts over the years necessary? -> if yes, i need to change because title not right)
-
-//{% include timeline_rating_en_action.html %}
-//
-//{% include timeline_rating_en_horror.html %}
-//
-//{% include timeline_rating_en_drama.html %}
-//
-//{% include timeline_rating_en_comedy.html %}
-//
-//
-//{% include timeline_ID_en_action.html %}
-//
-//{% include timeline_ID_en_horror.html %}
-//
-//{% include timeline_ID_en_drama.html %}
-//
-//{% include timeline_ID_en_comedy.html %}
-
-//explain a little more for question 2.1 and 2.2
-
-
 
 ### Movie Arc analysis/Noah's Arc to success (better title needed)
 The best way to measure success in the movie industry, are ratings and revenues. After getting to know about the ratings, it is time to talk about buisness. Based on the sales of the movie's box office, the revenue determines the profitability of a movie. Going back to the beginning of this data story, where we have identified the most common movie arcs in every genre, we want to know for which movie arc will predict success. 
