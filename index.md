@@ -134,7 +134,7 @@ We conducted statistical tests to investigate whether the presence of emotions i
 
 Unfortunately, we did not observe any significant effect, as none of the p-values were smaller than or equal to 0.05. However, we conducted additional tests to further examine this result by distinguishing between positive and negative movies. The results of these tests are currently being analyzed.
 
-(add table or any kind of cool matrix)
+{% include em_pm.html %}
 
 #### Okay then!... Which do we prefer: positive or negative themed movies?
   
@@ -151,6 +151,8 @@ From the bar plots, it is clear that there is no clear winner between the cluste
 
 ##### Ratings
 With the same aim to find the best movie arc but in terms of ratings, we we want to find the most rated one among the others. Following the same procedure as before we obtain those findings:
+  
+{% include most_rated_arc.html %}
 
 
 ##### Revenue
@@ -158,7 +160,7 @@ The best way to measure success in the movie industry, are ratings and revenues.
   
 To find the most profitable movie arc, we have analyzed the box office over the year for each arc by calculating the confidence level and p-value. It presents, which arc has the most sales over a certain amount of time and its significance. (the analsysis results also already explain for question 2.5?) 
 
-plots and confusion matrix or so for the many values
+{% include most_profitable_arc.html %}
 
 (add analysis which one it is)
 plots and confusion matrix or so for the many values
