@@ -138,7 +138,7 @@ Unfortunately, we did not observe any significant effect, as none of the p-value
 
 {% include em_pm.html %}
 
-#### Okay then!... Which do we prefer: positive or negative themed movies?
+#### Okay then...! Which do we prefer: positive or negative themed movies?
   
 We are thrilled to announce that our analysis has uncovered a significant impact of emotions on movie ratings in the Action and Drama genres! Our findings indicate that negative movies in these genres tend to be rated higher than positive movies.
 
