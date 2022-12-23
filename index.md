@@ -149,7 +149,9 @@ Movie clusters within the same genre can be evaluated by visualizing their avera
 
 {% include cluster_ratings.html %}
 
-From the bar plots, it is clear that there is no clear winner between the clusters in the Action and Horror genres. However, in the Drama and Comedy genres, a significant difference in ratings between clusters exists. Specifically, cluster 3, which represents the 'Cinderella' story arc, is the highest rated in the Drama genre. In the Comedy genre, cluster 3, the 'Man in the Hole' arc, is also the highest rated.
+From the bar plots, it is clear that there is no clear winner between the clusters in the Action and Horror genres. However, in the Drama and Comedy genres, a significant difference in ratings between clusters exists. Specifically, the *'Man in the Hole'* story arc (represented by cluster 3 in both genres) is the highest rated in both the *Drama* and *Comedy* genres.
+
+Is it any surprise that we all want to see the main character triumph over their struggles and find happiness in the end? It's what we love!
 
 ##### Ratings
 With the same aim to find the best movie arc but in terms of ratings, we we want to find the most rated one among the others. Following the same procedure as before we obtain those findings:
@@ -164,7 +166,8 @@ To find the most profitable movie arc, we have analyzed the box office over the 
 
 {% include most_profitable_arc.html %}
 
-
+(add analysis which one it is)
+plots and confusion matrix or so for the many values
 
 (add analysis which one it is)
 
@@ -172,10 +175,6 @@ To find the most profitable movie arc, we have analyzed the box office over the 
 (Sum up which ones are the best from ratings and profit)
 Much has changed over the years and so did cinema. But did the story lines/movie arcs change too? By presenting the best arcs in relation to revenue and ratings, we show the evolution of the arc in a timeline. Comparing the rating and revenue in the same plot, indicates certain changes over time and visualizes its commonalities.
 
-{% include timeline_rating_clusters_action.html %}
-  
-{% include timeline_bo_clusters_action.html %}
-  
-  add plots over time of only best arc per genre with box office and ratings in same plot to compare
+add plots over time of only best arc per genre with box office and ratings in same plot to compare
 
 ### Conclusion
