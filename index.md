@@ -175,7 +175,9 @@ A visualization of the evolution of box office revenue distribution among the va
  A visualization of the evolution of box office revenue distribution among the various clusters of **Comedy** movies:
 {% include Comedy_revenues.html %}
     
-
+The significance of each distribution can be observed here:
+  {% include most_profitable_arc.html %}
+ 
 Much has changed over the years and so did cinema. But did the story lines/movie arcs change too? By presenting the best arcs in relation to revenue and ratings, we show the evolution of the arc in a timeline. Comparing the rating and revenue in the same plot, indicates certain changes over time and visualizes its commonalities.
 
 {% include timeline_rating_clusters_action.html %}
