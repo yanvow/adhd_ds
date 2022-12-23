@@ -74,7 +74,7 @@ The results accurately reflect reality. To demonstrate this, let's compare them 
 
 As humans, we crave happy endings and the results reflect this desire. All four genres, even horror, though less clearly, demonstrate an increase in score at the end of the movie.
 
-### A Deeper Dive into each Typical Story arc.
+### A Deeper Dive into each Typical Story arc
 
 The story arcs in different genres can vary significantly. To identify the most common arcs within a genre, we used Time series Kmeans clustering and the Tslearn Library with the soft dynamic time wrapping distance metric. After running the clustering algorithm, each movie in the genre is assigned to a cluster. By finding the barycenter of these clusters, we were able to determine the representative story arc for each cluster.
 
@@ -102,16 +102,15 @@ According to the silhouette graph, the optimal number of clusters for action mov
 
 You may be wondering which cluster within each genre is the most successful in terms of profitability and IMDB rating. Let's continue uncovering the perfect recipe for a successful movie in each genre.
 
-### Emotions in Movies
-Now that we know how the most present clusters look like, we see that some genres are more emotional compared to the other ones but HOW emotional are they really? But first of all, we need to determine their grade of emotions. A movie is considered either positive, neutral, or negative when more than 50% of the sentences are assigned to the corresponding sentiment value (+1/0/-1). 
-To categorize this further, an emotional movie includes positive and negative movies, whereas a non-emotional movie is considered a neutral movie.
+### Emotions in Movies (better title needed)
+Now that we know, how the most present clusters look like, it appears that some genres are more emotional compared to others. But how does emotion affect the movie in terms of success by ratings and revenue? First of all, we need to classify the different emotions. A movie is considered either positive, neutral, or negative when more than 50% of the sentences are assigned to the corresponding sentiment value (+1/0/-1). 
+To categorize this further, emotional movies include positive and negative movies, whereas non-emotional movies consist of only neutral movies.
 
 {% include emo_pl.html %}
 
 add that many drama's exist
 
-From those plots we can see that in every genre, significantly more emotional movies exist. In the emotional category, especially the negative movies dominate. Is the high demand for movies with negative sentiments based on the viewers desire?
-To include the consumer’s opinion, an additional dataset from IMDb was used. So, we can compare the mean rating for emotional and non-emotional movies in every genre:
+As shown above, clearly more emotional movies exist in every genre. Whereas the negative movies dominate for all all genres except for Drama. Does this mean, that the demand for movies with negative sentiments is higher than for positive movies? To include the viewer’s ratings, an additional dataset from IMDb was used. So, we can compare the mean rating for emotional and non-emotional movies in every genre:
 
 {% include bars_ratings_emo_nonemo.html %}
 
@@ -119,60 +118,65 @@ As well as for the ratings of positive and negative movies:
 
 {% include bars_ratings_pn.html %}
 
+The higest rated genre is in both cases Drama, which is also contains the highest number of movies, while Horror movies are not something for everybody. The interesting point is that, for all genres, people tend to prefer emotional movies, to be more specific, emotional movies with negative scences. For some genres like Action, the difference is not as high in the comparison of emotional and non-emotional movies as it is for positive and negative movies. 
 
 #### Is it possible for a film to excel without tugging at our heartstrings?
-We can see that from the obtained comparison of the ratings, that drama movies are the watcher's favourites, while horror movies is not something for everybody. But again the majority for all cases lies in the emotional movies. (no big difference tho!!!) So which emotions specifically appeal better to the customer? People tend to prefer movies with negative scences. But to predict the movie's success based on the liking of the audience, is nearly impossible. Therefore, we want to see which kind of movie could get into the top league of all times. The best way to measure success in the movie industry, are revenues. Based on the sales of the movie's box office, we can observe the trend of every genre over the years.
+To discuss, wheather the presence of emotions impact on the success of the movie, in form of leading to a higher IMDB rating, we have performed statistical tests to find a correlation. For every genre, the confidence level in reference to emotions and ratings in the movies were obtained and their p-values. 
 
-Show time lines revenue and ratings for all movies over time
+add table or any kind of cool matrix about p vals
+(why pval of horror so high even though the difference is visible?)
 
-The movie industry has boomed in the 80's and only been rising since then. 
+Unfortunately, no p-value smaller of equal 0.05 were obtained, so that no effect could have been observed. But to examine this result a little further, we performed the same tests exept by distinguishing by positive and negative movies. 
 
+add table or any kind of cool matrix
 
-#### What is the effect of the positive/negative emotions on the success of the movie, do movies that are predominently positive (more than 50% of the lines are positive) have a higher IMDB rating? or is the opposite effect true? and do the observed effect vary per genre?
+Eureka! For the emotional movies a significant effect has been found. In Action and Drama movies it shows that negative movies have an effect on the rating. In both cases the negative movies are higher rated. (add why do people prefer negative sentiments?) For the categories Horror and Comedy, the lacking correlation is due to the fact that the performed sentiment analysis, which was performed on the plot, does not reflect the emotions during the movie itself. As the jokes from a comedy movie won't be written in the plot discription.
 
-{% include timeline_rating_en_action.html %}
+(are the plots of ratings and counts over the years necessary? -> if yes, i need to change because title not right)
 
-{% include timeline_rating_en_horror.html %}
+//{% include timeline_rating_en_action.html %}
+//
+//{% include timeline_rating_en_horror.html %}
+//
+//{% include timeline_rating_en_drama.html %}
+//
+//{% include timeline_rating_en_comedy.html %}
+//
+//
+//{% include timeline_ID_en_action.html %}
+//
+//{% include timeline_ID_en_horror.html %}
+//
+//{% include timeline_ID_en_drama.html %}
+//
+//{% include timeline_ID_en_comedy.html %}
 
-{% include timeline_rating_en_drama.html %}
-
-{% include timeline_rating_en_comedy.html %}
-
-
-{% include timeline_ID_en_action.html %}
-
-{% include timeline_ID_en_horror.html %}
-
-{% include timeline_ID_en_drama.html %}
-
-{% include timeline_ID_en_comedy.html %}
-
-
-
-
-
-### Analysis of movie arcs
-
-Going back to the beginning of this data story, we have identified the most common movie arcs in every genre. This can lead us a little closer to finding the best movie arc of the genre. 
-
-show most rated arc per genre
-
-Much has changed over the years and so did cinema. But did the story change too?
-
-show clusters over time
-
-#### What is the most profitable movie arc per genre, is there a clear winner among the various clusters?
+//explain a little more for question 2.1 and 2.2
 
 
 
-#### What is the most rated movie arc per genre, is there a clear winner among the various clusters?
+### Movie Arc analysis/Noah's Arc to success (better title needed)
+The best way to measure success in the movie industry, are ratings and revenues. After getting to know about the ratings, it is time to talk about buisness. Based on the sales of the movie's box office, the revenue determines the profitability of a movie. Going back to the beginning of this data story, where we have identified the most common movie arcs in every genre, we want to know for which movie arc will predict success. 
+
+##### Revenue
+To find the most profitable movie arc, we have analyzed the box office over the year for each arc by calculating the confidence level and p-value. It presents, which arc has the most sales over a certain amount of time and its significance. (the analsysis results also already explain for question 2.5?) 
+
+plots and confusion matrix or so for the many values
+
+(add analysis which one it is)
 
 
+##### Ratings
+With the same aim to find the best movie arc but in terms of ratings, we we want to find the most rated one among the others. Following the same procedure as before we obtain those findings:
 
-#### Does the most typical movie arc change over time? If so, what are the various movie arcs that take place in various time periods, and what are their profitability and rating?
+plots and confusion matrix or so for the many values
+
+(add analysis which one it is)
 
 
-### emotional vs non-emotional and positive vs negative discussion
+(Sum up which ones are the best from ratings and profit)
+Much has changed over the years and so did cinema. But did the story lines/movie arcs change too? By presenting the best arcs in relation to revenue and ratings, we show the evolution of the arc in a timeline. Comparing the rating and revenue in the same plot, indicates certain changes over time and visualizes its commonalities.
 
-### movie arc analysis
+add plots over time of only best arc per genre with box office and ratings in same plot to compare
 
+### Conclusion
