@@ -205,3 +205,8 @@ This is truly a remarkable finding! By conducting sentiment analysis on every li
 ![storry telling image](/assets/fun_meme.jpg){:height="500" width="500"}
   
 In conclusion, this analysis has demonstrated the power of using data and statistical techniques to uncover trends and patterns in the movie industry. However, it is important to acknowledge the limitations of this approach. One potential weakness is that the plot summary may not capture the richness of the movie script, potentially leading to inaccurate conclusions about the story arc of various movies. Additionally, it is important to remember that hypothesis testing should not be used as a definitive tool for making conclusions, but rather as a preliminary and exploratory tool. Despite these limitations, we believe that this is what makes data science such a fascinating field – the importance of being cautious and skeptical of our findings. Nevertheless, ADA rules!  
+  
+#### References
+[1] Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.
+
+[2] https://tslearn.readthedocs.io/en/stable/
