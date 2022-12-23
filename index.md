@@ -174,6 +174,8 @@ plots and confusion matrix or so for the many values
 (Sum up which ones are the best from ratings and profit)
 Much has changed over the years and so did cinema. But did the story lines/movie arcs change too? By presenting the best arcs in relation to revenue and ratings, we show the evolution of the arc in a timeline. Comparing the rating and revenue in the same plot, indicates certain changes over time and visualizes its commonalities.
 
-add plots over time of only best arc per genre with box office and ratings in same plot to compare
+{% include timeline_rating_clusters_action.html %}
+
+{% include timeline_bo_clusters_action.html %}
 
 ### Conclusion
