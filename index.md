@@ -183,7 +183,7 @@ The analysis shows that Box Office revenues have been increasing over time. This
 In the **Action** genre: 
   * During period 2, the cluster labeled "Cinderella" was the more profitable than the cluster labeled "Man in the Hole". 
   * In period 3, the cluster labeled "Oedipus + Rags to Riches" competes with the cluster labeled "Cinderella," while the cluster labeled "Man in the Hole" remains much lower in profitability.
-  * In period 4, the profitability of the three clusters becomes more similar and there is no significant difference in which cluster is more profitable.
+  * In periods 1 and 4, the profitability of the three clusters becomes more similar and there is no significant difference in which cluster is more profitable.
 
 In the **Horror** genre: 
   * During Period 1 and 4, the profitability of the three clusters becomes more similar and there is no significant difference in which cluster is more profitable. On other hand, in period 2 and 3, the Oepidus movie arc is the least profitable movie arc.
@@ -194,7 +194,7 @@ In the **Drama** genre:
   * During period 4, the clusters labeled "Rags to Riches" and "Cinderella" was the least profitable, while the clusters labeled "Man in the Hole" and "Oedipus + Rags to Riches" were competing for the top spot in terms of profitability.
     
  In the **Comedy** genre: 
-  * During period 1, 3 and 4, the cluster labelled "Man in the hole" was the most profitable among all the other clusters. While in period 2, the profitability of the three clusters becomes more similar and there is no significant difference in which cluster is more profitable.
+  * During period 3 and 4, the cluster labelled "Man in the hole" was the most profitable among all the other clusters. While in period 2, the profitability of the three clusters becomes more similar and there is no significant difference in which cluster is more profitable.
 
 By comparing the revenue and rating results, we see that the cluster labeled "Man in the Hole" has both higher ratings and higher profitability in both the drama and comedy genres where significant differences were found compared to other clusters. This suggests that this cluster is particularly successful in these genres.
  
