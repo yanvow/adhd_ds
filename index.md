@@ -116,18 +116,28 @@ As well as for the ratings of positive and negative movies:
 
 {% include bars_ratings_pn.html %}
   
-In both situations, the most ranked genre is Drama, which also has the most films, but Horror films are not for everyone. The interesting point is that, for all genres, It seems like people tend to prefer emotional movies, to be more specific, emotional movies with negative scences. For some genres like Comedy, the difference is not as high in the comparison of emotional and non-emotional movies as it is for positive and negative movies. 
 
 #### Is it possible for a film to excel without tugging at our heartstrings?
-To discuss, wheather the presence of emotions impact on the success of the movie, in form of leading to a higher IMDB rating, we have performed statistical tests to find a correlation. For every genre, the confidence level in reference to emotions and ratings in the movies were obtained and their p-values. 
+  
+It's interesting to see that drama is the highest rated genre, while horror is the lowest. Some possible reasons for why drama might be more highly rated could include:
 
-add table or any kind of cool matrix about p vals
-(why pval of horror so high even though the difference is visible?)
+ * Drama films often explore complex, relatable themes and emotions, which can be highly compelling for many viewers.
+ * Many drama films are based on true stories or historical events, which can be highly engaging for viewers who are interested in learning more about the world around them.
 
-Unfortunately, no p-value smaller of equal 0.05 were obtained, so that no effect could have been observed. But to examine this result a little further, we performed the same tests exept by distinguishing by positive and negative movies. 
+On the other hand, there could be a variety of reasons why horror films are not as highly rated as drama films. Some possible reasons could include:
 
-add table or any kind of cool matrix
+  * Horror films are designed to be scary and unsettling, which can be off-putting for some viewers.
+  * Horror films often feature graphic violence or gore, which can be too much for some people to handle.
 
+#### Is it possible for a film to excel without tugging at our heartstrings?
+We conducted statistical tests to investigate whether the presence of emotions in a movie impacts its success, as measured by its IMDB rating. We examined the correlation between emotions and ratings for each film genre and obtained p-values to gauge the confidence level of our findings.
+
+Unfortunately, we did not observe any significant effect, as none of the p-values were smaller than or equal to 0.05. However, we conducted additional tests to further examine this result by distinguishing between positive and negative movies. The results of these tests are currently being analyzed.
+
+(add table or any kind of cool matrix)
+
+#### Okay then! ... Which do we prefer: positive or negative themed movies?
+  
 Eureka! For the emotional movies a significant effect has been found. In Action and Drama movies it shows that negative movies have an effect on the rating. In both cases the negative movies are higher rated. (add why do people prefer negative sentiments?) For the categories Horror and Comedy, the lacking correlation is due to the fact that the performed sentiment analysis, which was performed on the plot, does not reflect the emotions during the movie itself. As the jokes from a comedy movie won't be written in the plot discription.
 
 
