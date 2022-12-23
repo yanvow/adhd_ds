@@ -164,14 +164,16 @@ To find the most profitable movie arc, we have analyzed the box office over the 
 
 {% include most_profitable_arc.html %}
 
-(add analysis which one it is)
-plots and confusion matrix or so for the many values
 
 (add analysis which one it is)
 
 
 (Sum up which ones are the best from ratings and profit)
 Much has changed over the years and so did cinema. But did the story lines/movie arcs change too? By presenting the best arcs in relation to revenue and ratings, we show the evolution of the arc in a timeline. Comparing the rating and revenue in the same plot, indicates certain changes over time and visualizes its commonalities.
+
+{% include timeline_rating_clusters_action.html %}
+
+{% include timeline_bo_clusters_action.html %}
 
 add plots over time of only best arc per genre with box office and ratings in same plot to compare
 
