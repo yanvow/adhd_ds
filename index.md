@@ -174,14 +174,21 @@ A visualization of the evolution of box office revenue distribution among the va
 
  A visualization of the evolution of box office revenue distribution among the various clusters of **Comedy** movies:
 {% include Comedy_revenues.html %}
-    
-The significance of each distribution can be observed here:
+  
+The statistical test's significance value, with the null hypothesis being that all cluster distributions have the same mean, is
   {% include most_profitable_arc.html %}
  
-Much has changed over the years and so did cinema. But did the story lines/movie arcs change too? By presenting the best arcs in relation to revenue and ratings, we show the evolution of the arc in a timeline. Comparing the rating and revenue in the same plot, indicates certain changes over time and visualizes its commonalities.
+The analysis shows that Box Office revenues have been increasing over time. This suggests that the cinema is earning more revenue across all genres. Additionally, the statistical test found that there are several clusters where the mean values differ significantly. This suggests that the revenues for different genres do not have the same mean value. Specifically, considering a signifinace level of 0.05:
+  
+In the **Action** genre: 
+  * During periods 1 and 2, the cluster labeled "Cinderella" was the most profitable. This cluster's story arc follows a rise, fall, and then a rise again in the emotional events of the story. 
+  * In period 3, the cluster labeled "Oedipus + Rags to Riches" competes with the cluster labeled "Cinderella," while the cluster labeled "Man in the Hole" remains much lower in profitability.
+  * In period 4, the profitability of the three clusters becomes more similar and there is no significant difference in which cluster is more profitable.
 
-{% include timeline_rating_clusters_action.html %}
-
-{% include timeline_bo_clusters_action.html %}
-
+In the **Horror** genre: 
+  * The analysis found that there is no clear evidence that one horror movie cluster is consistently more profitable than the others over the four periods studied.
+  
+In the **Drama** genre: 
+ * During period 1, the cluster labeled "Rags to Riches" was the least profitable, while the clusters labeled "Man in the Hole" and "Oedipus + Rags to Riches" were competing for the top spot in terms of profitability."
+  
 ### Conclusion
