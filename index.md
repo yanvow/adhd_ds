@@ -72,7 +72,7 @@ By closely observing the typical movie arcs, we can see that the typical **Actio
 
 The results accurately reflect reality. To demonstrate this, let's compare them to the drama movie "Parasite," released in 2019. "Parasite" follows a poor family who initially lives peacefully but becomes intertwined with a wealthy family. As the movie progresses, increasingly dramatic events unfold, culminating in a murder by a member of the poor family. This marks the most negative point in the movie. The poor family then goes into hiding until the end of the movie, when they are finally free. This can be accurately depicted with the Drama Movie Arc! 
 
-As humans, we crave happy endings and the results reflect this desire. All four genres, even horror, though less clearly, demonstrate an increase in score at the end of the movie.
+As humans, we crave happy endings and the results reflect this desire. All four genres, even horror, though less clearly, demonstrate an increase in score at the end of the movie. 
 
 ### A Deeper Dive into each Typical Story arc
 
@@ -81,6 +81,7 @@ The story arcs in different genres can vary significantly. To identify the most 
 The representative story arcs for the 3 different clusters found in the Action genre are:
 
 {% include Action_clusters.html %}
+
 
 The representative story arcs for the 4 different clusters found in the Drama genre are:
 
