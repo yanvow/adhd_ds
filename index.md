@@ -105,11 +105,12 @@ We used the tslearn library to cluster the emotional arcs of movies by genre usi
 
 According to the silhouette graph, the optimal number of clusters for action movies is 3, for drama movies is 4, for comedy movies is 3, and for horror movies is 3. Additionally, using discrete features rather than continuous features results in a higher silhouette score. Therefore, we use the resulting number of clusters and discrete features to perform timeseries clustering.
 
-You may be wondering which cluster within each genre is the most successful in terms of profitability and IMDB rating. Let's continue uncovering the perfect recipe for a successful movie in each genre.
+You may be wondering which cluster within each genre is the most successful in terms of profitability and IMDB rating. Let's continue uncovering the perfect recipe for a successful movie in each genre. 
 
 ### The Emotional Influence of Movies: How Does Sentiment Affect Success?
-
-Now that we have a better understanding of the most prevalent clusters, it appears that certain genres tend to be more emotional compared to others. But how does the presence of emotion impact the success of a movie, as measured by ratings and revenue? To analyze this, we will first classify the different emotions present in a movie. A movie can be classified as positive, neutral, or negative if over 50% of the sentences in the movie are assigned one of these sentiment values (positive +1 / neutral 0 /negative -1). We can further categorize these movies as emotional (including both positive and negative movies) or non-emotional (consisting only of neutral movies).
+To uncover the key ingredients for a successful movie, it's important to consider whether there are higher-level features that can impact a film's success, such as the presence of emotions. What is the impact of non-emotional movies on their success compared to movies that do include emotions? Do positive or negative emotions play a particularly significant role in determining a movie's success?
+  
+To analyze this, we will first classify the movies. A movie can be classified as positive, neutral, or negative if over 50% of the sentences in the movie are assigned one of these sentiment values (positive +1 / neutral 0 /negative -1). We can further categorize these movies as emotional (including both positive and negative movies) or non-emotional (consisting only of neutral movies).
 
 {% include emo_pl.html %}
 
@@ -132,15 +133,14 @@ On the other hand, there could be a variety of reasons why horror films are not 
   * Horror films often feature graphic violence or gore, which can be too much for some people to handle.
 
 #### Is it possible for a film to excel without tugging at our heartstrings?
-We conducted statistical tests to investigate whether the presence of emotions in a movie impacts its success, as measured by its IMDB rating. We examined the correlation between emotions and ratings for each film genre and obtained p-values to gauge the confidence level of our findings.
+We conducted statistical tests to investigate whether the presence of emotions in a movie impacts its success, as measured by its IMDB rating. To compare the success of emotional and non-emotional movies, we conducted a matched study by pairing candidates from each group with similar runtime and absolute emotion scores. We examined the correlation between emotions and ratings for each film genre and obtained p-values to gauge the confidence level of our findings.
 
-Unfortunately, we did not observe any significant effect, as none of the p-values were smaller than or equal to 0.05. However, we conducted additional tests to further examine this result by distinguishing between positive and negative movies. The results of these tests are currently being analyzed.
-
+Unfortunately, we did not observe any significant effect, as none of the p-values were smaller than or equal to 0.05. Although there are fewer non-emotional movies compared to emotional ones, some non-emotional films have still managed to achieve success. It's possible that this is due to other factors or features besides emotion.
+  
 {% include em_pm.html %}
 
-#### Okay then...! Which do we prefer: positive or negative themed movies?
-  
-We are thrilled to announce that our analysis has uncovered a significant impact of emotions on movie ratings in the Action and Drama genres! Our findings indicate that negative movies in these genres tend to be rated higher than positive movies.
+#### Okay then...! How about: positive or negative themed movies?
+As we can see from the p-values, our analysis has uncovered a significant impact of emotions on movie ratings in the Action and Drama genres! Our findings indicate that negative movies in these genres tend to be rated higher than positive movies.
 
 It is worth noting that our analysis did not reveal a correlation between emotions and ratings in the Horror and Comedy genres. This may be because the sentiment analysis we conducted, which was based on the movie plot descriptions, does not accurately reflect the emotions experienced during the movie itself. For example, the jokes in a comedy movie may not be conveyed in the plot description.
 
@@ -164,16 +164,14 @@ To find the most profitable movie arc, we have analyzed the box office over the 
 
 {% include most_profitable_arc.html %}
 
+(add analysis which one it is)
+plots and confusion matrix or so for the many values
 
 (add analysis which one it is)
 
 
 (Sum up which ones are the best from ratings and profit)
 Much has changed over the years and so did cinema. But did the story lines/movie arcs change too? By presenting the best arcs in relation to revenue and ratings, we show the evolution of the arc in a timeline. Comparing the rating and revenue in the same plot, indicates certain changes over time and visualizes its commonalities.
-
-{% include timeline_rating_clusters_action.html %}
-
-{% include timeline_bo_clusters_action.html %}
 
 add plots over time of only best arc per genre with box office and ratings in same plot to compare
 
