@@ -19,7 +19,7 @@ Join us as we delve into the world of movie storytelling and uncover the secrets
 
 ## Let us tell you a little story about data
 
-The CMU Movie Summary Corpus Dataset consists of 42,306 plot summaries and its meta data from movies, released in 1932 until 2012. It varies from drama and comedy all the way to fantasy and musicals. 
+The CMU Movie Summary Corpus Dataset consists of 42,306 plot summaries and its meta data from movies, released in 1893 until 2013. It varies from drama and comedy all the way to fantasy and musicals. 
 
 {% include genres.html %}
 Drama, Comedy, Thriller/Action, Romance, and Horror are the kings and queens of the genre world! No shocker there, right? These categories always come out on top and dominate the charts. They're just too darn popular to ignore! In fact this can be visualized by the following pie chart that presents the distribution of the genres present in at least 5 movies in the top 100 rated movies. 
