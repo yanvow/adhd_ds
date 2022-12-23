@@ -181,7 +181,7 @@ The statistical test's significance value, with the null hypothesis being that a
 The analysis shows that Box Office revenues have been increasing over time. This suggests that the cinema is earning more revenue across all genres. Additionally, the statistical test found that there are several clusters where the mean values differ significantly. This suggests that the revenues for different genres do not have the same mean value. Specifically, considering a signifinace level of 0.05:
   
 In the **Action** genre: 
-  * During periods 1 and 2, the cluster labeled "Cinderella" was the most profitable. This cluster's story arc follows a rise, fall, and then a rise again in the emotional events of the story. 
+  * During period 2, the cluster labeled "Cinderella" was the more profitable than the cluster labeled "Man in the Hole". 
   * In period 3, the cluster labeled "Oedipus + Rags to Riches" competes with the cluster labeled "Cinderella," while the cluster labeled "Man in the Hole" remains much lower in profitability.
   * In period 4, the profitability of the three clusters becomes more similar and there is no significant difference in which cluster is more profitable.
 
@@ -196,11 +196,15 @@ In the **Drama** genre:
  In the **Comedy** genre: 
   * During period 1, 3 and 4, the cluster labelled "Man in the hole" was the most profitable among all the other clusters. While in period 2, the profitability of the three clusters becomes more similar and there is no significant difference in which cluster is more profitable.
 
-By comparing the revenue and rating results, we see that the cluster labeled "Man in the Hole" has both higher ratings and higher profitability in both the drama and comedy genres where significant differences were found. This suggests that this cluster is particularly successful in these genres.
+By comparing the revenue and rating results, we see that the cluster labeled "Man in the Hole" has both higher ratings and higher profitability in both the drama and comedy genres where significant differences were found compared to other clusters. This suggests that this cluster is particularly successful in these genres.
  
 ### Conclusion
   
-This is truly a remarkable finding! By conducting sentiment analysis on every line of a movie's plot and clustering the story arcs, we were able to uncover valuable insights into the various plots present in the movie industry over a century of data. One key insight we gained is that emotions play a different role in various genres. For example, we found that negative-themed movies tend to have higher IMDB ratings compared to positive-themed movies in the genres of action and drama, while the difference was less significant in comedy and horror. We also discovered that emotional-themed movies are more common than non-emotional movies, but there was no significant difference in ratings between the two. The success of different story arcs was also varied, with some clusters achieving much greater fame and success compared to others. The cluster labeled "Man in the Hole" had higher ratings in both comedy and drama, while "Cinderella" was successful in action movies. On the other hand, the cluster labeled "Rags to Riches" had much lower fame and success in the drama genre. In the horror genre, plot is not as important as effects, so there was not a significant difference in the success of different story arcs. Finally, we observed that box office revenues have been increasing over time, indicating the ongoing success of movies in providing us with joy and entertainment.
+This is truly a remarkable finding! By conducting sentiment analysis on every line of a movie's plot and clustering the story arcs, we were able to uncover valuable insights into the various plots present in the movie industry over a century of data. 
+  
+One key insight we gained is that emotions play a different role in various genres. For example, we found that negative-themed movies tend to have higher IMDB ratings compared to positive-themed movies in the genres of action and drama, while the difference was less significant in comedy and horror. We also discovered that emotional-themed movies are more common than non-emotional movies, but there was no significant difference in ratings between the two. 
+
+Furthemore, The success of different story arcs was also varied, with some clusters achieving much greater fame and success compared to others. The cluster labeled "Man in the Hole" had higher ratings in both comedy and drama, while "Cinderella" was successful in action movies. On the other hand, the cluster labeled "Rags to Riches" had much lower fame and success in the drama genre. In the horror genre, plot is not as important as effects, so there was not a significant difference in the success of different story arcs. Finally, we observed that box office revenues have been increasing over time, indicating the ongoing success of movies in providing us with joy and entertainment.
   
 ![storry telling image](/assets/fun_meme.jpg){:height="500" width="500"}
   
