@@ -103,12 +103,9 @@ According to the silhouette graph, the optimal number of clusters for action mov
 You may be wondering which cluster within each genre is the most successful in terms of profitability and IMDB rating. Let's continue uncovering the perfect recipe for a successful movie in each genre.
 
 ### Emotions in Movies (better title needed)
-Now that we know, how the most present clusters look like, it appears that some genres are more emotional compared to others. But how does emotion affect the movie in terms of success by ratings and revenue? First of all, we need to classify the different emotions. A movie is considered either positive, neutral, or negative when more than 50% of the sentences are assigned to the corresponding sentiment value (+1/0/-1). 
-To categorize this further, emotional movies include positive and negative movies, whereas non-emotional movies consist of only neutral movies.
+Now that we have a better understanding of the most prevalent clusters, it appears that certain genres tend to be more emotional compared to others. But how does the presence of emotion impact the success of a movie, as measured by ratings and revenue? To analyze this, we will first classify the different emotions present in a movie. A movie can be classified as positive, neutral, or negative if over 50% of the sentences in the movie are assigned one of these sentiment values (positive +1 / neutral 0 /negative -1). We can further categorize these movies as emotional (including both positive and negative movies) or non-emotional (consisting only of neutral movies).
 
 {% include emo_pl.html %}
-
-add that many drama's exist
 
 As shown above, clearly more emotional movies exist in every genre. Whereas the negative movies dominate for all all genres except for Drama. Does this mean, that the demand for movies with negative sentiments is higher than for positive movies? To include the viewer’s ratings, an additional dataset from IMDb was used. So, we can compare the mean rating for emotional and non-emotional movies in every genre:
 
