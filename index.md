@@ -95,6 +95,10 @@ The representative story arcs for the 3 different clusters found in the Horror g
 
 {% include Horror_clusters.html %}
 
+By manually examining the representative clusters, we can label each timeseries with the labels provided by Kurt Vonnegut. The clustering process resulted in a clear separation of the datapoints, with no single cluster dominating the majority of the data
+ 
+ {% include cluster_labels_info.html %}
+  
 We used the tslearn library to cluster the emotional arcs of movies by genre using two different representations of time series data and the Silhouette score to evaluate the quality of the clusters and choose the optimal number of clusters. 
 
 {% include silhoutte.html %}
