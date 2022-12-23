@@ -149,17 +149,16 @@ Movie clusters within the same genre can be evaluated by visualizing their avera
 
 {% include cluster_ratings.html %}
 
-From the bar plots, it is clear that there is no clear winner between the clusters in the Action and Horror genres. However, in the Drama and Comedy genres, a significant difference in ratings between clusters exists. Specifically, the *'Man in the Hole'* story arc (represented by cluster 3 in both genres) is the highest rated in both the *Drama* and *Comedy* genres.
+### Ratings
+  
+The bar plots show that there is no clear favorite among the clusters in the Action and Horror genres. However, in the Drama and Comedy genres, there is a noticeable difference in ratings between the clusters, as indicated by the P-values displayed below. In particular, the *'Man in the Hole'* story arc (represented by cluster 3 in both genres) has the highest ratings in both the *Drama* and *Comedy genres*.
 
 Is it any surprise that we all want to see the main character triumph over their struggles and find happiness in the end? It's what we love!
 
-##### Ratings
-With the same aim to find the best movie arc but in terms of ratings, we we want to find the most rated one among the others. Following the same procedure as before we obtain those findings:
-  
 {% include most_rated_arc.html %}
 
 
-##### Revenue
+#### Revenue
 The best way to measure success in the movie industry, are ratings and revenues. After getting to know about the ratings, it is time to talk about buisness. Based on the sales of the movie's box office, the revenue determines the profitability of a movie. Going back to the beginning of this data story, where we have identified the most common movie arcs in every genre, we want to know for which movie arc will predict success. 
   
 To find the most profitable movie arc, we have analyzed the box office over the year for each arc by calculating the confidence level and p-value. It presents, which arc has the most sales over a certain amount of time and its significance. (the analsysis results also already explain for question 2.5?) 
