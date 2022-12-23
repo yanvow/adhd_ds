@@ -191,7 +191,7 @@ In the **Horror** genre:
 In the **Drama** genre: 
  * During period 1, the cluster labeled "Rags to Riches" was the least profitable, while the clusters labeled "Man in the Hole" and "Oedipus + Rags to Riches" were competing for the top spot in terms of profitability.
  * During period 2 and period 3,  the profitability of the four clusters becomes more similar and there is no significant difference in which cluster is more profitable.
-  * During period 4, the clusters labeled "Rags to Riches" and "Cinderella" was the least profitable, while the clusters labeled "Man in the Hole" and "Oedipus + Rags to Riches" were competing for the top spot in terms of profitability.
+  * During period 4, the clusters labeled "Rags to Riches" and "Cinderella" were the least profitable, while the clusters labeled "Man in the Hole" and "Oedipus + Rags to Riches" were competing for the top spot in terms of profitability.
     
  In the **Comedy** genre: 
   * During period 3 and 4, the cluster labelled "Man in the hole" was the most profitable among all the other clusters. While in period 2, the profitability of the three clusters becomes more similar and there is no significant difference in which cluster is more profitable.
