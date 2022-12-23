@@ -142,22 +142,25 @@ We are thrilled to announce that our analysis has uncovered a significant impact
 
 It is worth noting that our analysis did not reveal a correlation between emotions and ratings in the Horror and Comedy genres. This may be because the sentiment analysis we conducted, which was based on the movie plot descriptions, does not accurately reflect the emotions experienced during the movie itself. For example, the jokes in a comedy movie may not be conveyed in the plot description.
 
-It is not entirely clear why people may prefer negative sentiments in Action and Drama movies, but it could be that these emotions add depth and complexity to the story, making for a more engaging and compelling film. Further research may be needed to understand the factors that influence movie ratings and audience preferences.
-
 ### Let's proceed! ...Let us add the Movie Arcs into our Analysis.
-The best way to measure success in the movie industry, are ratings and revenues. After getting to know about the ratings, it is time to talk about buisness. Based on the sales of the movie's box office, the revenue determines the profitability of a movie. Going back to the beginning of this data story, where we have identified the most common movie arcs in every genre, we want to know for which movie arc will predict success. 
+Movie clusters within the same genre can be evaluated by visualizing their average ratings. This can help us find the most popular and highly rated movies within a genre. Try exploring your favorite genres and see which clusters come out on top.
+
+{% include cluster_ratings.html %}
+
+From the bar plots, it is clear that there is no clear winner between the clusters in the Action and Horror genres. However, in the Drama and Comedy genres, a significant difference in ratings between clusters exists. Specifically, cluster 3, which represents the 'Cinderella' story arc, is the highest rated in the Drama genre. In the Comedy genre, cluster 3, the 'Man in the Hole' arc, is also the highest rated.
+
+##### Ratings
+With the same aim to find the best movie arc but in terms of ratings, we we want to find the most rated one among the others. Following the same procedure as before we obtain those findings:
+
 
 ##### Revenue
+The best way to measure success in the movie industry, are ratings and revenues. After getting to know about the ratings, it is time to talk about buisness. Based on the sales of the movie's box office, the revenue determines the profitability of a movie. Going back to the beginning of this data story, where we have identified the most common movie arcs in every genre, we want to know for which movie arc will predict success. 
+  
 To find the most profitable movie arc, we have analyzed the box office over the year for each arc by calculating the confidence level and p-value. It presents, which arc has the most sales over a certain amount of time and its significance. (the analsysis results also already explain for question 2.5?) 
 
 plots and confusion matrix or so for the many values
 
 (add analysis which one it is)
-
-
-##### Ratings
-With the same aim to find the best movie arc but in terms of ratings, we we want to find the most rated one among the others. Following the same procedure as before we obtain those findings:
-
 plots and confusion matrix or so for the many values
 
 (add analysis which one it is)
